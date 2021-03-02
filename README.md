@@ -4,17 +4,17 @@ This web application was built using React. It provides a visual of various comm
 
 https://jovial-blackwell-a408ac.netlify.app/
 
-![Sorting Algorithm Preview](https://github.com/alyssadicarlo/sorting-visualizer/tree/main/src/Assets/preview.png?raw=true)
+![Sorting Algorithm Preview](https://github.com/alyssadicarlo/sorting-visualizer/blob/main/src/Assets/preview.png?raw=true)
 
 # TO DO:
 
 - [x] Deploy using Netlify
-- [] Custom domain
+- [ ] Custom domain
 - [x] Easy to use UI
 - [x] Bubble sort algorithm
-- [] Quick sort algorithm
-- [] Merge sort algoritm
-- [] Color coding sorting steps
+- [ ] Quick sort algorithm
+- [ ] Merge sort algoritm
+- [ ] Color coding sorting steps
 - [x] Change size of array
 - [x] Change speed of sort
 - [x] Generate new random array
@@ -23,4 +23,4 @@ https://jovial-blackwell-a408ac.netlify.app/
 
 - Clone repository
 - Run `yarn install` in command line to install dependencies
-- Run `yarn start` & open ![http://localhost:3000/](http://localhost:3000/) to view it in the browser
+- Run `yarn start` & open http://localhost:3000/ to view it in the browser
