@@ -1,10 +1,8 @@
 # Sorting Algorithm Visualizer
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b8890336-d789-4005-bcc4-c1fd43b6dd78/deploy-status)](https://app.netlify.com/sites/pensive-ardinghelli-f32e83/deploys)
-
 This web application was built using React. It provides a visual of various common sorting algorithms such as bubble sort, merge sort, and quick sort. This web app was deployed using Netlify, and the live version can be viewed at:
 
-https://pensive-ardinghelli-f32e83.netlify.app
+https://alyssadicarlo.github.io/sorting-visualizer/
 
 ![Sorting Algorithm Preview](https://github.com/alyssadicarlo/sorting-visualizer/blob/main/src/Assets/preview.png?raw=true)
 
