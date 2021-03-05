@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-This web application was built using React. It provides a visual of various common sorting algorithms such as bubble sort, merge sort, and quick sort. This web app was deployed using Netlify, and the live version can be viewed at:
+This web application was built using React. It provides a visual of various common sorting algorithms such as bubble sort, merge sort, and quick sort. This web app was deployed using Github Pages, and the live version can be viewed at:
 
 https://alyssadicarlo.github.io/sorting-visualizer/
 
