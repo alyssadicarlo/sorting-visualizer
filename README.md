@@ -8,9 +8,8 @@ https://alyssadicarlo.github.io/sorting-visualizer/
 
 # TO DO:
 
-- [x] Deploy using Netlify
+- [x] Deploy using Github Pages
 - [x] Mobile friendly UI
-- [ ] Custom domain
 - [x] Easy to use UI
 - [x] Bubble sort algorithm
 - [ ] Quick sort algorithm
