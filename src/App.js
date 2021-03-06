@@ -20,6 +20,8 @@ export default class App extends React.Component {
     this.state = {
       array: [],
       steps: [],
+      colors: [],
+      colorStep: [],
       algorithm: BUBBLE_SORT,
       length: STARTING_LENGTH,
       speed: STARTING_SPEED,
@@ -37,13 +39,16 @@ export default class App extends React.Component {
   }
 
   generateArray() {
-    let array = []
+    let array = [];
+    let colorStep = [];
     for (let i = 0; i < this.state.length; i++) {
       let rand = Math.random()*50;
       array.push(Math.floor(rand));
+      colorStep.push("#A5E5D9");
     }
     this.setState({
       array: array,
+      colorStep: [...colorStep]
     }, () => this.setSteps());
   }
 
@@ -72,11 +77,14 @@ export default class App extends React.Component {
 
   setSteps() {
     let array = this.state.array;
+    let steps = this.state.steps;
+    let colors = this.state.colors;
 
-    let steps = this.ALGO[this.state.algorithm](array);
+    this.ALGO[this.state.algorithm](array, steps, colors);
 
     this.setState({
-      steps: steps
+      steps: steps,
+      colors: colors
     });
   }
 
@@ -84,7 +92,8 @@ export default class App extends React.Component {
     for (let i = 0; i < this.state.steps.length; i++) {
       setTimeout(() => {
         this.setState({
-          array: this.state.steps[i]
+          array: this.state.steps[i],
+          colorStep: this.state.colors[i]
         });
       }, (100/this.state.speed) * i);
     }
@@ -98,6 +107,7 @@ export default class App extends React.Component {
     let columns = this.state.array.map((value, index) => <Column
       key={index}
       value={value}
+      color={this.state.colorStep[index]}
     />);
     return (
       <div className="App">
