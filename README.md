@@ -14,7 +14,7 @@ https://alyssadicarlo.github.io/sorting-visualizer/
 - [x] Bubble sort algorithm
 - [ ] Quick sort algorithm
 - [ ] Merge sort algoritm
-- [ ] Color coding sorting steps
+- [x] Color coding sorting steps
 - [x] Change size of array
 - [x] Change speed of sort
 - [x] Generate new random array
