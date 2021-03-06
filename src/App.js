@@ -95,7 +95,7 @@ export default class App extends React.Component {
           array: this.state.steps[i],
           colorStep: this.state.colors[i]
         });
-      }, (100/this.state.speed) * i);
+      }, (200/this.state.speed) * i);
     }
   }
 
