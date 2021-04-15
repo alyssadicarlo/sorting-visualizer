@@ -18,6 +18,7 @@ https://alyssadicarlo.github.io/sorting-visualizer/
 - [x] Change size of array
 - [x] Change speed of sort
 - [x] Generate new random array
+- [ ] Bug fixes
 
 # Usage:
 
